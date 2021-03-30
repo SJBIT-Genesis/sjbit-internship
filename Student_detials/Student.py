@@ -10,3 +10,5 @@ class Student:
     def display(self):
         print(self.name,self.email,self.usn,self.phone)
 
+s=Student()
+s.display()
