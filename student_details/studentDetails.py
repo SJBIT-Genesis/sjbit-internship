@@ -4,5 +4,4 @@ class StudentDetails:
     semester = "7th"
 
     def get_details(self):
-        print(self.name, self.usn, self.semester)
-
+        print(f"name : {self.name}\nUSN : {self.usn}\nSemester : {self.semester}")
