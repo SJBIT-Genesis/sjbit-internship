@@ -1,13 +1,13 @@
 class StudentDetails:
-    def __init__(self,name,email,usn,phone):
+    def __init__(self,name,email,usn,college):
         self.name = name
         self.email = email
         self.usn = usn
-        self.phone = phone
+        self.college=college
 
     def display(self):
-        print(self.name,self.email,self.usn,self.phone)
+        print(self.name,self.email,self.usn,self.college)
 
 
-S=StudentDetails("AKASH","abc@gmail.com","1jb17cs008","9031190322")
+S=StudentDetails("NIDHI","nidhi@gmail.com","1jb17cs084","sjbit")
 S.display();
